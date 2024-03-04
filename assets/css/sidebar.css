@@ -1,0 +1,38 @@
+.mainContainer {
+  height: 100%;
+}
+
+.mainContainerGap {
+  gap: 8px;
+  grid-template-columns: 1fr auto 1fr;
+  grid-template-rows: 1fr auto;
+  grid-template-areas:
+    "nav main sidebar"
+    "aside main sidebar";
+}
+
+.b-radius-8px {
+  border-radius: 8px;
+  background-color: #121212;
+}
+
+.text-grey {
+  color: #b3b3b3;
+}
+
+.a-side {
+  color: #b3b3b3;
+  text-decoration: none;
+}
+
+.a-side:hover {
+  color: white;
+}
+
+.playlistColumn {
+  min-height: 100vh;
+}
+
+.font-circular {
+  font-family: Circular, sans-serif;
+}
