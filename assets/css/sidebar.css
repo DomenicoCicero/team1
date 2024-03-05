@@ -53,10 +53,48 @@
   font-weight: 500;
 }
 
+.fs-08 {
+  font-size: 0.8;
+}
+
 .fs-06 {
   font-size: 0.6rem;
 }
 
 .fs-05 {
   font-size: 0.5rem;
+}
+
+.z-index-2 {
+  z-index: 2;
+}
+
+.volume-bar-width {
+  width: 100px;
+}
+
+.slider {
+  width: 100px;
+  height: 5px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+
+.sliderMain {
+  width: 300px;
+  height: 8px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+
+.height-sidebar {
+  height: calc(100vh - 76px);
 }
